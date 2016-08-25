@@ -1,0 +1,22 @@
+{
+  "name": "fee-boilerplate-browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "watch-dev": "watchify lib/main.js -o javascripts/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "jasmine": "^2.4.1",
+    "jsdom": "^9.4.2",
+    "simulant": "^0.2.2",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

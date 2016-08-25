@@ -1,0 +1,11 @@
+/*
+  Main Stylesheet
+*/
+
+.dropdown .dropdown__list{
+  display: none;
+}
+
+.dropdown--open .dropdown__list {
+  display: block;
+}
